@@ -13,7 +13,7 @@
         <input type="button" value="지금 내 고민에 대한 해답은?" onclick="getAnswer()">
     </div>
     <div class="answer hide">
-        <p id="answer">절대 안돼</p>
+        <p id="answer"></p>
         <input type="button" value="다시" onclick="reset()">
     </div>
     <script>
