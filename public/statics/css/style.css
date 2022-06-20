@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+html, body {font-family: 'Cute Font', cursive;width:100%;height:100%;}
+
+.question, .answer {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size:30px;
+}
+input {
+    font-size:25px;
+    padding:10px 20px;
+    background-color: #ffeeee;
+    border:1px solid #f7d3d3;
+    border-radius: 10px;
+    cursor:pointer;
+}
+input:hover {
+    background-color: #ffd1d1;
+    border:1px solid #c38787;
+    color:#881919;
+}
+
+.hide {display:none;}
